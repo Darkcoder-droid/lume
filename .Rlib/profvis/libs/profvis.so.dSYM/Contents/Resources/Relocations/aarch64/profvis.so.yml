@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Volumes/Builds/packages/sonoma-arm64/Rlib/4.6/00LOCK-profvis/00new/profvis/libs/profvis.so'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _get_time_ms, symObjAddr: 0x0, symBinAddr: 0x1200, symSize: 0x80 }
+  - { offset: 0x49, size: 0x8, addend: 0x0, symName: _get_time_ms, symObjAddr: 0x0, symBinAddr: 0x1200, symSize: 0x80 }
+  - { offset: 0x10B, size: 0x8, addend: 0x0, symName: _profvis_pause, symObjAddr: 0x80, symBinAddr: 0x1280, symSize: 0x120 }
+  - { offset: 0x2C1, size: 0x8, addend: 0x0, symName: _R_init_profvis, symObjAddr: 0x0, symBinAddr: 0x13C0, symSize: 0x48 }
+  - { offset: 0x2E8, size: 0x8, addend: 0x0, symName: _callMethods, symObjAddr: 0x48, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offset: 0x372, size: 0x8, addend: 0x0, symName: _R_init_profvis, symObjAddr: 0x0, symBinAddr: 0x13C0, symSize: 0x48 }
+...

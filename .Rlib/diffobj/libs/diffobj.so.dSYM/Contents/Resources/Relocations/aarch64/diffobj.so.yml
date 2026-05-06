@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Volumes/Builds/packages/sonoma-arm64/Rlib/4.6/00LOCK-diffobj/00new/diffobj/libs/diffobj.so'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __comp_chr, symObjAddr: 0x0, symBinAddr: 0x1280, symSize: 0xC0 }
+  - { offset: 0x90, size: 0x8, addend: 0x0, symName: __comp_chr, symObjAddr: 0x0, symBinAddr: 0x1280, symSize: 0xC0 }
+  - { offset: 0x2F1, size: 0x8, addend: 0x0, symName: _diff, symObjAddr: 0xC0, symBinAddr: 0x1340, symSize: 0x300 }
+  - { offset: 0x5D9, size: 0x8, addend: 0x0, symName: __ses, symObjAddr: 0x3C0, symBinAddr: 0x1640, symSize: 0xE80 }
+  - { offset: 0x1309, size: 0x8, addend: 0x0, symName: __find_faux_snake, symObjAddr: 0x1240, symBinAddr: 0x24C0, symSize: 0x278 }
+  - { offset: 0x1555, size: 0x8, addend: 0x0, symName: _DIFFOBJ_diffobj, symObjAddr: 0x0, symBinAddr: 0x2740, symSize: 0x21C }
+  - { offset: 0x15B8, size: 0x8, addend: 0x0, symName: _DIFFOBJ_diffobj, symObjAddr: 0x0, symBinAddr: 0x2740, symSize: 0x21C }
+  - { offset: 0x1A8A, size: 0x8, addend: 0x0, symName: _R_init_diffobj, symObjAddr: 0x0, symBinAddr: 0x2980, symSize: 0x48 }
+  - { offset: 0x1AB1, size: 0x8, addend: 0x0, symName: _callMethods, symObjAddr: 0x48, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offset: 0x1B3B, size: 0x8, addend: 0x0, symName: _R_init_diffobj, symObjAddr: 0x0, symBinAddr: 0x2980, symSize: 0x48 }
+...

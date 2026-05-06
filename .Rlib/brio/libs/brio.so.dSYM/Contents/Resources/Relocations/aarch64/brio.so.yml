@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Volumes/Builds/packages/sonoma-arm64/Rlib/4.6/00LOCK-brio/00new/brio/libs/brio.so'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _open_with_widechar_on_windows, symObjAddr: 0x0, symBinAddr: 0x1200, symSize: 0x24 }
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _open_with_widechar_on_windows, symObjAddr: 0x0, symBinAddr: 0x1200, symSize: 0x24 }
+  - { offset: 0x30E, size: 0x8, addend: 0x0, symName: _brio_file_line_endings, symObjAddr: 0x0, symBinAddr: 0x1240, symSize: 0xC8 }
+  - { offset: 0x32A, size: 0x8, addend: 0x0, symName: _brio_file_line_endings, symObjAddr: 0x0, symBinAddr: 0x1240, symSize: 0xC8 }
+  - { offset: 0x716, size: 0x8, addend: 0x0, symName: _R_init_brio, symObjAddr: 0x0, symBinAddr: 0x1340, symSize: 0x3C }
+  - { offset: 0x73D, size: 0x8, addend: 0x0, symName: _CallEntries, symObjAddr: 0x40, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offset: 0x7C7, size: 0x8, addend: 0x0, symName: _R_init_brio, symObjAddr: 0x0, symBinAddr: 0x1340, symSize: 0x3C }
+  - { offset: 0x948, size: 0x8, addend: 0x0, symName: _brio_read_file, symObjAddr: 0x0, symBinAddr: 0x1380, symSize: 0x178 }
+  - { offset: 0x99E, size: 0x8, addend: 0x0, symName: _brio_read_file, symObjAddr: 0x0, symBinAddr: 0x1380, symSize: 0x178 }
+  - { offset: 0xFB4, size: 0x8, addend: 0x0, symName: _brio_read_file_raw, symObjAddr: 0x0, symBinAddr: 0x1500, symSize: 0x16C }
+  - { offset: 0xFD5, size: 0x8, addend: 0x0, symName: _brio_read_file_raw, symObjAddr: 0x0, symBinAddr: 0x1500, symSize: 0x16C }
+  - { offset: 0x15B1, size: 0x8, addend: 0x0, symName: _str_buf_set, symObjAddr: 0x0, symBinAddr: 0x1680, symSize: 0x80 }
+  - { offset: 0x1607, size: 0x8, addend: 0x0, symName: _str_buf_set, symObjAddr: 0x0, symBinAddr: 0x1680, symSize: 0x80 }
+  - { offset: 0x16E3, size: 0x8, addend: 0x0, symName: _brio_read_lines, symObjAddr: 0x80, symBinAddr: 0x1700, symSize: 0x45C }
+  - { offset: 0x20DC, size: 0x8, addend: 0x0, symName: _brio_write_file, symObjAddr: 0x0, symBinAddr: 0x1B80, symSize: 0xCC }
+  - { offset: 0x20F8, size: 0x8, addend: 0x0, symName: _brio_write_file, symObjAddr: 0x0, symBinAddr: 0x1B80, symSize: 0xCC }
+  - { offset: 0x2560, size: 0x8, addend: 0x0, symName: _brio_write_file_raw, symObjAddr: 0x0, symBinAddr: 0x1C80, symSize: 0xC0 }
+  - { offset: 0x257C, size: 0x8, addend: 0x0, symName: _brio_write_file_raw, symObjAddr: 0x0, symBinAddr: 0x1C80, symSize: 0xC0 }
+  - { offset: 0x29D4, size: 0x8, addend: 0x0, symName: _brio_write_lines, symObjAddr: 0x0, symBinAddr: 0x1D40, symSize: 0x1AC }
+  - { offset: 0x29F0, size: 0x8, addend: 0x0, symName: _brio_write_lines, symObjAddr: 0x0, symBinAddr: 0x1D40, symSize: 0x1AC }
+...
