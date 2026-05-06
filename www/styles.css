@@ -1,0 +1,66 @@
+/* custom.css */
+
+/* Modern Typography */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Premium Navbar */
+.navbar {
+    border-bottom: 1px solid #E9ECEF !important;
+    padding: 0.8rem 1.5rem !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
+}
+
+.navbar-brand {
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+    color: #2C3E50 !important;
+}
+
+/* Card Styling (Tableau-like containers) */
+.card {
+    border: 1px solid #E9ECEF !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.01) !important;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.03) !important;
+}
+
+.card-header {
+    background-color: transparent !important;
+    border-bottom: 1px solid #F1F3F5 !important;
+    font-weight: 600;
+    color: #495057;
+    padding: 1rem 1.25rem;
+}
+
+/* Whitespace & Layout */
+.container-fluid {
+    padding: 2rem !important;
+}
+
+/* Data Tables */
+table.dataTable {
+    border-collapse: collapse !important;
+    font-size: 0.9rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #2C3E50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px;
+}
+
+/* Custom file input */
+.btn-file {
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 4px;
+}
